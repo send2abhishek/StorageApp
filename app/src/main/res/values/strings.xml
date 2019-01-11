@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Storage App</string>
+    <string name="gridView">grid_view_key</string>
+</resources>

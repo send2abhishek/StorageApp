@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="12dp"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/view_layout_imageView"
+        android:layout_marginRight="6dp"
+        android:layout_marginEnd="6dp"
+        android:src="@drawable/apple_pie"
+        />
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_layout_textView_name"
+        android:layout_toRightOf="@id/view_layout_imageView"
+        android:text="Hi this IS abhishek I am interested "
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:textSize="22sp"
+        android:layout_alignBaseline="@id/view_layout_imageView"
+        />
+
+</RelativeLayout>
